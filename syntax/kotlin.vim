@@ -26,7 +26,7 @@ syn keyword ktTypedef typealias
 syn keyword ktBoolean true false
 syn keyword ktConstant null
 
-syn keyword ktModifier data inline reified native synchronized transient volatile
+syn keyword ktModifier data inline noinline crossinline tailrec external reified native synchronized transient volatile lateinit
 
 syn keyword ktTodo TODO FIXME XXX contained
 syn match ktLineComment "//.*$" contains=ktTodo,@Spell
